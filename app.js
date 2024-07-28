@@ -12,8 +12,7 @@ require("dotenv").config();
 // Enable CORS for requests from http://localhost:3000
 app.use(
   cors({
-    origin:
-      "http://localhost:3000" && "https://chatbot-rouge-sigma.vercel.app/",
+    origin: "https://chatbot-rouge-sigma.vercel.app/",
   })
 );
 
