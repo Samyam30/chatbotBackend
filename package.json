@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "langchain control",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "samyam chatbot",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/core": "^0.2.15",
+    "@langchain/google-genai": "^0.0.21",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "langchain": "^0.2.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
